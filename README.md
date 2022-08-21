@@ -1,1 +1,1 @@
-# battleships
+# The classic boad game, Battleships 
