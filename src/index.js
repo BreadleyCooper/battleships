@@ -1,4 +1,1 @@
-import './style.css';
-import printMe from './test';
-
-printMe();
+import { Ship } from './shipFactory';
