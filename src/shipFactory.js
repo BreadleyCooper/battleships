@@ -14,8 +14,8 @@ const Ship = (l) => {
     if (hitCounter >= length) {
       sunk = true;
 
-      // if sunk === false, return true
-    } return sunk === false;
+      // if sunk, return true
+    } return sunk !== false;
   };
   // returns the hitcounter variable for use outside of this factory
   const getHitCounter = () => hitCounter;
