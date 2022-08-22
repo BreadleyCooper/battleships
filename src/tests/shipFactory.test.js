@@ -11,13 +11,13 @@ test('isSunk returns true if hitCounter === length', () => {
   newShip3.hit();
   newShip3.hit();
   newShip3.isSunk();
-  expect(newShip3.isSunk).toBeTruthy();
+  expect(newShip3.isSunk()).toBeTruthy();
 });
 
 test('isSunk returns false if hitCounter !== length', () => {
   const newShipAlive = Ship(4);
   newShipAlive.hit();
-  expect(newShipAlive.isSunk).toBeFalsy();
+  expect(newShipAlive.isSunk()).toBeFalsy();
 });
 test('hit counter increments', () => {
   const newShip1 = Ship(4);
