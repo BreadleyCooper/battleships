@@ -1,5 +1,7 @@
 // factory function that places ships at coordinates and track attacks
 
+// notes: game grids are 10x10
+
 import { Ship } from "./shipFactory";
 
 const Gameboard = () => {

@@ -1,6 +1,8 @@
 // Factory function that creates the Ship objects
 
-const Ship = (l) => {
+// notes: Ships are Carrier l=5, Battleship l=4, Cruiser l=3, Submarine l=3, Destroyer l=2
+
+const Ship = (x, y, l) => {
   // initial parameters
   const length = l;
   let hitCounter = 0;
