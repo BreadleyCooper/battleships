@@ -2,7 +2,7 @@
 
 // notes: Ships are Carrier l=5, Battleship l=4, Cruiser l=3, Submarine l=3, Destroyer l=2
 
-const Ship = (x, y, l) => {
+const Ship = (gridNumber, l) => {
   // initial parameters
   const length = l;
   let hitCounter = 0;
@@ -19,6 +19,7 @@ const Ship = (x, y, l) => {
       // if sunk, return true
     } return sunk !== false;
   };
+
   // returns the hitcounter variable for use outside of this factory
   const getHitCounter = () => hitCounter;
 
